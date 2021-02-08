@@ -8,13 +8,21 @@
 
 With `npm`:
 
-    npm install
+    cd client && npm install
+    
+    cd .. && npm install
+
 
 Optionally, with `Yarn`:
 
-    yarn
+    cd client && yarn
+    
+    cd .. && yarn
+    
 
-## Run
+## Run project
+
+This will run server and client.
 
 With `npm`:
 
@@ -23,6 +31,9 @@ With `npm`:
 Optionally, with `Yarn`:
 
     yarn dev
+
+
+App will run on http://localhost:4200
 
 ## Structure
 
