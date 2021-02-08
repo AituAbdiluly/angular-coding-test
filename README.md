@@ -1,5 +1,9 @@
 # Angular Coding Test
 
+## Clone project
+
+    git clone https://github.com/AituAbdiluly/angular-coding-test.git
+
 ## Installation
 
 With `npm`:
