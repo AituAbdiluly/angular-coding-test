@@ -1,0 +1,14 @@
+.app-calculator {
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 5rem;
+
+  &__form {
+    display: flex;
+    justify-content: center;
+  }
+
+  #expression {
+    text-align: center;
+  }
+}

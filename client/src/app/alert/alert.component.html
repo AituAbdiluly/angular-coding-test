@@ -1,0 +1,20 @@
+<div
+    *ngIf="errMessage"
+    class="position-fixed bottom-0 right-0 p-3 border"
+    style="z-index: 5; right: 15px; bottom: 15px"
+  >
+    <div
+      id="liveToast"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+      data-delay="2000"
+    >
+      <div class="toast-header">
+        <strong class="mr-auto text-danger">Error</strong>
+      </div>
+      <div class="toast-body text-secondary">
+        {{ errMessage }}
+      </div>
+    </div>
+  </div>
